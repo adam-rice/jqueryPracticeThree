@@ -1,17 +1,18 @@
 body {
-    background: #fafafa;
+    background: #B76EB8;
     font-family: 'Ruslan Display', cursive;
     color: #92CD00;
 }
+
 section {
   margin-top: 20px;
 }
-
 
 .tab-panels ul {
     margin: 0;
     padding: 0;
 }
+
 .tab-panels ul li {
     list-style-type: none;
     display: inline-block;
@@ -29,7 +30,7 @@ section {
 }
 
 .tab-panels ul li.active {
-    color: yellow;
+    color: #ffffff;
     background: #000000;
 }
 
