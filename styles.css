@@ -1,39 +1,42 @@
 body {
-    background: #fafafa;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #333;
+    background: #B76EB8;
+    font-family: 'Ruslan Display', cursive;
+    color: #92CD00;
 }
 
+section {
+  margin-top: 20px;
+}
 
 .tab-panels ul {
     margin: 0;
     padding: 0;
 }
+
 .tab-panels ul li {
     list-style-type: none;
     display: inline-block;
-    background: #999;
+    background: #666;
     margin: 0;
     padding: 3px 10px;
     border-radius: 10px 10px 0 0;
-    color: #fff;
     font-weight: 200;
     cursor: pointer;
 
 }
 .tab-panels ul li:hover {
     color: #fff;
-    background: #666;
+    background: #000000;
 }
 
 .tab-panels ul li.active {
-    color: maroon;
-    background: #666;
+    color: #ffffff;
+    background: #000000;
 }
 
 .tab-panels .panel {
     display:none;
-    background: #c9c9c9;
+    background: #000000;
     padding: 30px;
     border-radius: 0 0 10px 10px;
 }
